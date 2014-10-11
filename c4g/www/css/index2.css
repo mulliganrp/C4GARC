@@ -3,10 +3,28 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-#screen{
+.screen{
     position: absolute;
     width: 400px;
     height: 480px;
+}
+#home{
+    background-color: red;
+}
+
+#hometitle{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    color: white;
+}
+
+#homelogo{
+    position: absolute;
+    left:100px;
+    top: 200px;
+    width: 200px;
+    height: auto;
 }
 
 #existing{
@@ -29,11 +47,13 @@ table {
 
 thead th {
     background-color: #B5B5B5;
+    cursor: pointer;
     /*color: white;*/
 }
 
 tbody td {
     background-color: #FF4444;
+    cursor: pointer;
 }
 
 tr td:first-child,
