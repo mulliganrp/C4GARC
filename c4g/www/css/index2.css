@@ -2,18 +2,15 @@ html{
     margin: 0;
 }
 body{
-    /*padding: 20px;*/
     margin: 0;
     font-family: 'Open Sans', sans-serif !important;
 }
 p{
     margin: 0 5px;
 }
-
 h1{
     font-size: 30px;
 }
-
 .screen{
     position: absolute;
     width: 380px;
@@ -179,15 +176,6 @@ tr th:last-child {
     vertical-align: top;
     padding-top:0px;
 }
-
-/*.anyinput{
-    position: relative;
-    left: 18px;
-    height: 32px;
-    width: 280px;
-    margin: 8px 0;
-    padding: 5px;
-}*/
 
 #search{
     position: absolute;
