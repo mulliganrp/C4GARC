@@ -1,26 +1,135 @@
-.panel,#flip,#existing
-{
-    text-align:center;
-
+body{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#date, #name, #status{
-    margin: 10px;
-}
-
-
-.panel
-{
-    background-color: white;
-    color: black;
-    /*padding:10px;*/
+#screen{
+    position: absolute;
+    width: 400px;
+    height: 480px;
 }
 
 #existing{
     position: absolute;
     left: 10%;
     top: 25%;
-    background-color: red;
+    /*background-color: red;*/
     color:white;
-    width: 50%;
+    width: 450px;
+    padding: 5px;
+
 }
+
+table {
+    position: absolute;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width:100%;
+}
+
+thead th {
+    background-color: #B5B5B5;
+    /*color: white;*/
+}
+
+tbody td {
+    background-color: #FF4444;
+}
+
+tr td:first-child,
+tr th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #7875C9;
+}
+
+
+#addNew{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 450px;
+    width: 450px;
+    background-color: #68C75F;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+#title{
+    position: relative;
+    left: 10%;
+}
+
+.buttons{
+    position: relative;
+    left: 10%;
+    right: 10%;
+    width: 450px;
+    color: white;
+    border-radius: 6px;
+    margin: 8px 0;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    background-color: #B3C9F5;
+}
+
+.btn3{
+    background-color: #F5D7A6;
+    top:30px;
+}
+
+.btnCustom{
+    background-color: #33B5E5;
+    top:30px;
+}
+
+#comments{
+    position: relative;
+    left: 10%;
+    right: 10%;
+}
+
+#textbox{
+    position: absolute;
+    height: 80px;
+    width: 450px;
+    margin: 0px 5px;
+    vertical-align: top;
+    padding-top:0px;
+}
+.anyinput{
+    position: absolute;
+    left: 12%;
+    margin: 0 10px;
+    padding: 5px;
+
+}
+
+#search{
+    position: absolute;
+    height: 32px;
+    width: 450px;
+}
+
+#disimg{
+    position: absolute;
+    left: 10%;
+    width: 300px;
+    height: 200px;
+}
+

@@ -13,20 +13,49 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../www/css/index2.css">
     <script src="../www/js/index2.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     
     </head>
     
     <body>
 
-        <div id="existing">
-            Existing Tasks
-            <div id="flip">Click to slide up panel</div>
-            <div class="panel"><span id="date">mm/dd/yyyy</span><span id="name">Prosthetic Leg, Left</span><span id="status">in transit</span></div>
-            <div class="panel"><span id="date">mm/dd/yyyy</span><span id="name">Sample Tool 1</span><span id="status">in transit</span></div>
-            <div class="panel"><span id="date">mm/dd/yyyy</span><span id="name">Sample Tool 2</span><span id="status">in transit</span></div>
-            <div class="panel"><span id="date">mm/dd/yyyy</span><span id="name">Sample Tool 3</span><span id="status">in transit</span></div>
-        </div>
+    <div id="title">
+        <h1>Request 3D Print Tasks</h1>
+    </div>
 
+    <table id="existing" class="table table-hover">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Task</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>mm/dd/yyyy</td>
+            <td>Sample Task Here</td>
+            <td>In Transit</td>
+        </tr>
+        <tr>
+            <td>mm/dd/yyyy</td>
+            <td>Sample Task Here</td>
+            <td>On Hold</td>
+        </tr>
+        <tr>
+            <td>mm/dd/yyyy</td>
+            <td>Sample Task Here</td>
+            <td>Arrived</td>
+        </tr>
+
+        <tr>
+            <td>mm/dd/yyyy</td>
+            <td>Sample Task Here</td>
+            <td>Arrived</td>
+        </tr>
+    </tbody>
+    </table>
     
+    <button id="addNew">Add A New Task</button>
     </body>
 </html>
