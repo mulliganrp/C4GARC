@@ -1,0 +1,24 @@
+.panel,#flip,#existing
+{
+    text-align:center;
+
+}
+
+#date, #name, #status{
+    margin: 10px;
+}
+
+
+.panel
+{
+    /*padding:10px;*/
+}
+
+#existing{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    background-color: red;
+    color:white;
+    width: 50%;
+}
