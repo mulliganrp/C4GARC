@@ -14,7 +14,6 @@ h1{
     position: absolute;
     width: 420px;
     height: 580px;
-
 }
 
 #home{
@@ -60,7 +59,7 @@ h1{
     top: 100px;
     /*background-color: red;*/
     color:white;
-    width: 280px;
+    width: 360px;
     padding: 2px;
 
 }
@@ -105,7 +104,7 @@ tr th:last-child {
     position: absolute;
     left: 20px;
     top: 380px;
-    width: 280px;
+    width: 360px;
     background-color: #68C75F;
     color: white;
     border: none;
@@ -123,7 +122,7 @@ tr th:last-child {
     position: relative;
     left: 20px;
     right: 10%;
-    width: 280px;
+    width: 360px;
     color: white;
     border-radius: 6px;
     margin: 6px 0;
@@ -160,14 +159,16 @@ tr th:last-child {
 
 #comments{
     position: relative;
+    top: 20px;
     left: 20px;
     right: 10%;
 }
 
 #textbox{
     position: absolute;
-    height: 75px;
-    width: 280px;
+    height: 85px;
+    top: 35px;
+    width: 360px;
     margin: 0px 5px;
     vertical-align: top;
     padding-top:0px;
@@ -186,7 +187,8 @@ tr th:last-child {
     position: absolute;
     left: 14px;
     height: 32px;
-    width: 280px;
+    width: 360px;
+    padding: 5px;
 }
 
 #disimg{
