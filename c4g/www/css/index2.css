@@ -1,5 +1,9 @@
+html{
+    margin: 0;
+}
 body{
     /*padding: 20px;*/
+    margin: 0;
     font-family: 'Open Sans', sans-serif !important;
 }
 p{
@@ -147,7 +151,7 @@ tr th:last-child {
 }
 
 .btn5{
-    top:160px;
+    top:190px;
 }
 
 .btn6{
@@ -161,7 +165,7 @@ tr th:last-child {
 
 #comments{
     position: relative;
-    top: 20px;
+    top: 8px;
     left: 20px;
     right: 10%;
 }
@@ -169,7 +173,7 @@ tr th:last-child {
 #textbox{
     position: absolute;
     height: 85px;
-    top: 35px;
+    top: 26px;
     width: 360px;
     margin: 0px 5px;
     vertical-align: top;
