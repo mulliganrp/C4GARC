@@ -1,6 +1,6 @@
 body{
     padding: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 p{
     margin: 0 5px;
@@ -105,7 +105,7 @@ tr th:last-child {
 
 #title{
     position: relative;
-    left: 10%;
+    left: 14px;
 }
 
 .buttons{
@@ -192,7 +192,36 @@ tr th:last-child {
     top: 230px;
 }
 
+#taskLog{
+    position: absolute;
+    padding:6px;
+    left: 26px;
+    top: 70px;
+    width: 260px;
+}
+
 #dis{
     width: 100%;
+}
+
+#name{
+    position: absolute;
+    font-size: 22px;
+    margin-top:12px;
+    margin-left: 45px;
+    padding: 20px;
+    border: solid 3px #b1b1b1;
+}
+
+#details{
+    position: absolute;
+    top:200px;
+}
+
+.glyphicon, .glyphicon-ok-circle{
+    color: green;
+    font-size:40px;     
+    left: 100px;
+
 }
 

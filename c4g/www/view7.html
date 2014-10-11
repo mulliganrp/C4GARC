@@ -1,17 +1,28 @@
-a<html> 
+<html> 
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../www/css/index2.css">
-    <script src="../www/js/index2.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head> 
 
 <body> 
-	<h1 id="title"> Task Confirmation</h1> 
+	<div class="screen">
+		<h1 id="title"> Task Confirmation</h1> 
+		<div id="taskLog">
+			<span class='glyphicon glyphicon-ok-circle
+'></span>
+			<h3> Task was logged to : <br> <span id="name">John Smith</span></h3>
+			<div id="details">
+				<p> Phone Number: <span> {000-000-0000} </span></p>
+				<p> Email: <span> JohnSmith@redcross.org </span></p>
+			</div>
+			
+		</div>
 
-	<h3> Task was logged to <span> John Smith </span> </h3>
-	<hr> 
-	<p> Phone Number <span> {000-000-0000 } </span></p>
-
-	<button class='buttons'> DONE </button>
+		<button class='btn6 buttons'> DONE </button>
+		
+	</div>
 </body>
 </html>
