@@ -1,5 +1,5 @@
 $(document).ready(function(){
-		$("#flip").click(function(){
-			$(".panel").slideToggle("slow");
+		$("td").click(function(){
+			$("td").slideToggle("slow");
 	});
 });
