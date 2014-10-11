@@ -1,5 +1,5 @@
 body{
-    padding: 20px;
+    /*padding: 20px;*/
     font-family: 'Open Sans', sans-serif !important;
 }
 p{
@@ -48,7 +48,7 @@ h1{
     position: absolute;
     margin: 0 90px;
     font-weight: 2;
-    left: 80px;
+    left: 50px;
     top: 500px;
     color:white;
 }
@@ -56,11 +56,13 @@ h1{
 #existing{
     position: absolute;
     left: 20px;
-    top: 100px;
+    top: 80px;
     /*background-color: red;*/
     color:white;
     width: 360px;
+    height: 100px;
     padding: 2px;
+    overflow: scroll;
 
 }
 
@@ -141,7 +143,7 @@ tr th:last-child {
 }
 
 .btn4{
-    top:280px;
+    top:400px;
 }
 
 .btn5{
