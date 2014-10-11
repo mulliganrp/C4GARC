@@ -180,6 +180,7 @@ tr th:last-child {
 
 #disimg{
     position: absolute;
+    margin-top: 10px;
     left:36px;
     width: 160px;
     height: 80px;
@@ -195,8 +196,8 @@ tr th:last-child {
 #taskLog{
     position: absolute;
     padding:6px;
-    left: 26px;
-    top: 70px;
+    left: 25px;
+    top: 64px;
     width: 260px;
 }
 
@@ -219,9 +220,18 @@ tr th:last-child {
 }
 
 .glyphicon, .glyphicon-ok-circle{
-    color: green;
-    font-size:40px;     
+    position: absolute;
+    font-size:100px;     
     left: 100px;
+    color: green;
 
+}
+
+.glyphicon, .glyphicon-edit{
+    position: relative;
+    color: #b1b1b1;
+    font-size:30px;
+    top: 50px;     
+    margin-left: 130px;
 }
 
