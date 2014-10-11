@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RED Tool</string>
+    <string name="url">http://www.google.com</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
