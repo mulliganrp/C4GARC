@@ -3,37 +3,71 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-#screen{
+h1{
+    font-size: 30px;
+}
+
+.screen{
     position: absolute;
-    width: 400px;
-    height: 480px;
+    width: 320px;
+    height: 470px;
+    border: solid 1px;
+}
+
+#home{
+    background-color: red;
+}
+
+#hometitle{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    color: white;
+}
+
+#homelogo{
+    position: absolute;
+    left: 50px;
+    top: 170px;
+    width: 200px;
+    height: auto;
+}
+
+#getStarted{
+    position: absolute;
+    margin: 0 90px;
+    top: 350px;
+    color:white;
 }
 
 #existing{
     position: absolute;
-    left: 10%;
-    top: 25%;
+    left: 20px;
+    top: 100px;
     /*background-color: red;*/
     color:white;
-    width: 450px;
-    padding: 5px;
+    width: 280px;
+    padding: 2px;
 
 }
 
 table {
     position: absolute;
+    font-size: 12px;
     border-collapse: separate;
-    border-spacing: 0 10px;
+    border-spacing: 0 6px;
     width:100%;
 }
 
 thead th {
     background-color: #B5B5B5;
+    cursor: pointer;
     /*color: white;*/
 }
 
 tbody td {
     background-color: #FF4444;
+    cursor: pointer;
 }
 
 tr td:first-child,
@@ -55,13 +89,13 @@ tr th:last-child {
 
 #addNew{
     position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 450px;
-    width: 450px;
+    left: 20px;
+    top: 380px;
+    width: 280px;
     background-color: #68C75F;
     color: white;
     border: none;
+    font-size: 12px;
     border-radius: 6px;
     padding: 15px;
 }
@@ -79,7 +113,7 @@ tr th:last-child {
     color: white;
     border-radius: 6px;
     margin: 8px 0;
-    padding: 15px;
+    padding: 12px;
     font-size: 14px;
     border: none;
     cursor: pointer;
