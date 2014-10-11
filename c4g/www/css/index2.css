@@ -25,6 +25,7 @@ h1{
     position: absolute;
     top: 80px;
     left: 80px;
+    width: 300px;
     color: white;
 }
 
@@ -135,7 +136,7 @@ tr th:last-child {
 }
 
 .btn5{
-    top:320px;
+    top:160px;
 }
 
 .btn6{
@@ -219,12 +220,16 @@ tr th:last-child {
     top:200px;
 }
 
+#form{
+    position: relative;
+    left: 14px;
+    font-size: 14px;
+}
+
 .glyphicon, .glyphicon-ok-circle{
     position: absolute;
-    font-size:100px;     
-    left: 100px;
-    color: green;
-
+    font-size:100px;
+    color: green;   
 }
 
 .glyphicon, .glyphicon-edit{
