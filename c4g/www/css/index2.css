@@ -2,6 +2,9 @@ body{
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
 }
+p{
+    margin: 0 5px;
+}
 
 h1{
     font-size: 30px;
@@ -107,13 +110,13 @@ tr th:last-child {
 
 .buttons{
     position: relative;
-    left: 10%;
+    left: 20px;
     right: 10%;
-    width: 450px;
+    width: 280px;
     color: white;
     border-radius: 6px;
-    margin: 8px 0;
-    padding: 12px;
+    margin: 6px 0;
+    padding: 10px;
     font-size: 14px;
     border: none;
     cursor: pointer;
@@ -127,6 +130,18 @@ tr th:last-child {
     top:30px;
 }
 
+.btn4{
+    top:280px;
+}
+
+.btn5{
+    top:320px;
+}
+
+.btn6{
+    top:280px;
+}
+
 .btnCustom{
     background-color: #33B5E5;
     top:30px;
@@ -134,36 +149,50 @@ tr th:last-child {
 
 #comments{
     position: relative;
-    left: 10%;
+    left: 20px;
     right: 10%;
 }
 
 #textbox{
     position: absolute;
-    height: 80px;
-    width: 450px;
+    height: 75px;
+    width: 280px;
     margin: 0px 5px;
     vertical-align: top;
     padding-top:0px;
 }
-.anyinput{
-    position: absolute;
-    left: 12%;
-    margin: 0 10px;
-    padding: 5px;
 
-}
+/*.anyinput{
+    position: relative;
+    left: 18px;
+    height: 32px;
+    width: 280px;
+    margin: 8px 0;
+    padding: 5px;
+}*/
 
 #search{
     position: absolute;
+    left: 14px;
     height: 32px;
-    width: 450px;
+    width: 280px;
 }
 
 #disimg{
     position: absolute;
-    left: 10%;
-    width: 300px;
-    height: 200px;
+    left:36px;
+    width: 160px;
+    height: 80px;
+}
+
+#desc{
+    position: absolute;
+    left: 20px;
+    padding: 5px;
+    top: 230px;
+}
+
+#dis{
+    width: 100%;
 }
 
