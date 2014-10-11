@@ -12,8 +12,8 @@ h1{
 
 .screen{
     position: absolute;
-    width: 320px;
-    height: 470px;
+    width: 420px;
+    height: 580px;
     border: solid 1px;
 }
 
@@ -25,22 +25,32 @@ h1{
     position: absolute;
     top: 80px;
     left: 80px;
-    width: 300px;
+    width: 250px;
+    color: white;
+}
+
+#homeit{
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    width: 320px;
     color: white;
 }
 
 #homelogo{
     position: absolute;
-    left: 50px;
-    top: 170px;
-    width: 200px;
+    left: 60px;
+    top: 240px;
+    width: 280px;
     height: auto;
 }
 
 #getStarted{
     position: absolute;
     margin: 0 90px;
-    top: 350px;
+    font-weight: 2;
+    left: 80px;
+    top: 500px;
     color:white;
 }
 
