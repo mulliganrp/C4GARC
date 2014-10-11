@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         browser.getSettings().setLoadsImagesAutomatically(true);
         browser.getSettings().setJavaScriptEnabled(true);
 
-        browser.loadUrl("www.google.com");
+        browser.loadUrl("http://www.google.com");
     }
 
     private class MyBrowser extends WebViewClient {
